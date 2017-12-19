@@ -4,7 +4,7 @@
 
 
 def is_palindrome(string):
-    return string == string[::-1]
+    return string.lower() == (string[::-1]).lower()
 
 
 print is_palindrome("prakash")
